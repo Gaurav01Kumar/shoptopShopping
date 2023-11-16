@@ -1,0 +1,43 @@
+.center{
+    text-align: center;
+    color: #02162e;
+    margin: 30px 5px 30px 5px;
+}
+.Container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.Box1{
+    width: 95%;
+    color: black;
+    border-radius: 10px;
+    padding: 10px 5px 10px 5px;
+    margin: 0px 5px 20px 5px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+.Box1:hover{
+    background-color: rgb(209, 209, 209);
+    color: #02162e;
+}
+.img_blog{
+    height: max-content;
+    width:50%;
+    margin: 15px 20px 10px 20px;
+    border-radius: 10px;
+}
+.Blog_head{
+    /* margin: 15px 20px 10px 20px;
+    width: 40%; */
+    float: right;
+}
+.button_blog{
+    background-color: #02162e;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    padding: 6px;
+}

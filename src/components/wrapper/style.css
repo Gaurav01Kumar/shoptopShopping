@@ -1,0 +1,38 @@
+.wrapper {
+  text-align: center;
+}
+.wrapper .img {
+  margin: auto;
+  width: 70px;
+  height: 70px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+.wrapper .img i {
+  font-size: 25px;
+}
+.wrapper .product {
+  padding: 30px;
+  height: 220px;
+  width: 220px;
+}
+@media only screen and (max-width: 720px) {
+  .wrapper .product {
+    padding: 10px;
+    height: 188px;
+    width: 188px;
+  }
+
+}
+.wrapper .product h3 {
+  font-weight: 500;
+}
+.wrapper p {
+  font-size: 15px;
+  margin-top: 20px;
+  color: grey;
+}
+
+.colorbox{
+  background-color: blue;
+}

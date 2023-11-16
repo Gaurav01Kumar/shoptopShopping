@@ -1,0 +1,132 @@
+/* About Style Start  */
+#about_section{
+  height: 100%;
+  width: 55%;
+  justify-content: center;
+  margin: auto;  
+}
+.heading_about{
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0px 20px 0px;
+ }
+.about_section_left{
+  text-align: left;
+  width: 100%;
+  margin: 10px 20px 5px 0px;
+ }
+ .about_section_right{
+  text-align: right;
+  width: 100%;
+  margin: 5px 20px 5px 0px;
+ }
+.about_heading{
+  padding: 5px 20px 5px 0px;
+  font-size: 30px;
+}
+.para_style{
+  color: #064086;
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 25px;
+}
+.img_about{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.strong_about{
+  color: black;
+}
+img{
+  cursor: pointer;
+}
+.img_about_left{
+  display: block;
+  margin-left: 2px;
+  margin-right: auto;
+  padding-bottom: 20px;
+  width: 50%;
+}
+.img_about_right{
+  display: block;
+  margin-left: auto;
+  margin-right: 2px;
+  padding-bottom: 20px;
+  width: 50%;
+}
+/*About Style End */
+
+/*Style for Refund Page Start*/
+#refund_section{
+  height: 100%;
+  width: 90%;
+  justify-content: center;
+  margin: auto;  
+}
+.heading_refund{
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0px 20px 0px;  
+}
+.refund_heading{
+  color: #032753;
+  padding: 5px 20px 5px 0px;
+  font-size: 30px;
+}
+.para_style_refund{
+  color: black;
+  font-size: 18px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+.refund_section_main{
+  text-align: left;
+  width: 100%;
+  margin: 10px 20px 5px 0px;
+ }
+ .list_refund{
+  font-size: medium;
+  color: red;
+  font-weight: bold;
+ }
+ .link_refund{
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+ }
+/* Refund Style End  */
+
+/*Style for Shipping Page Start*/
+#ship_section{
+  height: 100%;
+  width: 90%;
+  justify-content: center;
+  margin: auto;
+}
+.ship_heading{
+  color: black;
+  padding: 5px 20px 5px 0px;
+  font-size: 30px;
+}
+.heading_ship
+{
+  text-align: center;
+  font-size: 25px;
+  margin: 20px 0px 20px 0px;   
+}
+.para_style_ship{
+  color: #032753;
+  font-size: 18px;
+  text-align: justify;
+  padding-bottom: 10px;
+}
+.para_center_ship{
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+/* Shipping Style End  */

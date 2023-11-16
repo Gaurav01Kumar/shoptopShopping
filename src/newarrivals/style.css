@@ -1,0 +1,262 @@
+
+.heading img {
+  width: 40px;
+  height: 40px;
+  margin-top: 5px;
+  padding: 0px;
+}
+.NewArrivals h4 {
+  font-weight: 400;
+}
+.hide{
+  display: none;
+}
+.fa{
+  padding-top: 12px;
+}
+.submitBtn{
+  width: 300px;
+}
+
+@media screen and (max-width: 750px){
+  .submitBtn{
+    width: 150px;
+  }
+}
+
+.NewArrivals span {
+  color: #e94560;
+  font-size: 15px;
+  font-weight: 500;
+}
+.NewArrivals .box img {
+  width: 300px;
+  height: 100%;
+}
+.shop .category {
+  padding: 30px;
+  height: 90vh;
+}
+.product_wrapeer{
+  margin-left: 290px;
+  width: auto;
+  
+}
+.hello{
+  display: none;
+}
+.sorting_option_wrapper{
+  display: block;
+  height: 19vh;
+}
+.chead h1 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.chead h1:nth-child(2) {
+  opacity: 0.5;
+  border-left: 3px solid rgba(0, 0, 0, 0.5);
+  padding-left: 70px;
+}
+
+.shop .category .box {
+  background-color: #f6f9fc;
+  margin: 15px 0;
+  padding: 5px 10px;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+.shop .category img {
+  width: auto;
+  height: auto;
+}
+
+.shop .category .box:hover {
+  background-color: #fff;
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+.shop .box2 {
+  margin-top: 100px !important;
+  text-align: center;
+}
+
+.shop .category button {
+  padding: 10px;
+  background: none;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.shop .contentWidth {
+  margin-left: 30px;
+}
+
+.grid1 {
+  display: flex;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.shop .product img {
+  width: 100%;
+  height: 100%;
+}
+.product img{
+ margin-left: 1px;
+}
+.shop .product {
+  transition: 0.5s;
+}
+
+.shop .product:hover {
+  box-shadow: rgb(43 52 69 / 10%) 0px 4px 16px;
+}
+
+
+.filter_wrapper {
+  max-width: 250px;
+  z-index: 2;
+  position: absolute;
+  display: flex;
+  margin-left: 2%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  left: 0;
+  justify-content: space-around;
+  
+}
+.filterOptions{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: flex-start;
+
+  justify-content: center;
+  padding-bottom: 20px;
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+}
+
+.filterbtn {
+  width: 250px;
+   display: flex;
+   align-items: center;
+   text-align: center;
+   cursor: pointer;
+   padding-left: 40px;
+}
+.priceFilter h4{
+
+  
+  color: #e94560;
+  font-size: 15px;
+  font-weight: 500;
+}
+.blogimgs{
+  width: 45%;
+  height: fit-content;
+}
+input[type="radio"]{
+  margin-right: 30px;
+  -webkit-appearance: checkbox;
+  
+  
+}
+
+.filter_btn {
+  padding: 20px 25px 20px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+}
+
+/* filter top button style */
+.top_heading{
+  width: 250px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+
+  align-items: center;
+}
+.top_heading a{
+  color: rgb(28, 105, 105);
+}
+/* Filter for Price According  */
+.priceFilter{
+  width: 100%;
+  box-shadow: -1px 15px 17px -8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: stretch;
+
+  padding: 20px 0px 20px 0px;
+}
+.filterHeading{
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+/* 
+by rohit */
+@media screen and (min-width: 1000px){
+  .displayFilter{
+    display: none;
+  }
+  .filterButton{
+    display: none;
+  }
+}
+@media screen and (max-width: 1000px){
+  .displayFilter{
+    background-color: #f6f9fc;
+  }
+  .displayFilter h2{
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .top_heading h2{
+    display: none;
+  }
+  .product_wrapeer{
+    margin-left:auto;
+  }
+  .filter_wrapper{
+    background-color: #f6f9fc;
+  }
+  
+.filter_wrapper {
+  width: 100vw;
+  z-index: 2;
+  position: relative;
+  display: flex;
+  padding-left: 2%;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: baseline;
+  align-content: center;
+  left: 0;
+  
+  justify-content: space-between;
+  
+}
+.top_heading a {
+  color: rgb(28, 105, 105);
+  text-align: center;
+  margin-right: 10px;
+}
+}
+.filterButton{
+  
+  padding-left: 4%;
+  width: 250px;
+  text-align: left;
+}
+

@@ -1,0 +1,103 @@
+#container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+#top{
+    width: 100%;
+}
+#top h1, #top h4{
+    padding-left: 30px;
+    text-align: left;
+}
+#top div{
+    text-align: justify;
+    padding: 30px;
+}
+#box1{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#left{
+    border: 2px solid black;
+    padding: 20px;
+    width: 50%;
+    text-align: justify;
+}
+#right{
+    
+    width: 50%;
+}
+#right img{
+    width: 75%;
+}
+
+/* link2 */
+#content{
+    padding: 50px;
+    text-align: justify;
+}
+#photu img{
+    width: 100%;
+}
+
+@media screen and (max-width:400px) {
+    #right image{
+        width:100%;
+    }
+    #box1{
+        flex-direction: column;
+    }
+    #right,#left{
+        width: 100%;
+    }
+}
+#container3{
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+}
+
+#image_arr{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+#image_arr img{
+    width: 29%;
+}
+article{
+    text-align: justify;
+    padding: 30px;
+}
+#container4{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    padding: 50px;
+}
+#wallpaper img{
+    width: 100%;
+}

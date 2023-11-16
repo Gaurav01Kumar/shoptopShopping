@@ -1,0 +1,81 @@
+.mainWrapper{
+    height: 100vh;
+    width: 100%;
+}
+.otpMainBox{
+    width: 60%;
+    box-shadow: 10px 0px 20px rgba(0,0,0,15%);
+    padding: 20px;
+    margin-top: 40px;
+}
+.icon_phone{
+ font-size: 50px;
+ color: lightgreen;
+ 
+}
+.otpMainBox span {
+    cursor: pointer;
+}
+.icon_phone i{
+    
+    animation:sake 0.5s infinite ease-in;
+      perspective: 1000px;
+      transform: translate3d(0,0,0);
+}
+@keyframes sake {
+10%{transform: translate(2px,2px);transform:  rotate(0deg);}
+20%{transform: translate(-3px,0px);transform:  rotate(-1deg);}
+30%{transform: translate(3px,2px);transform:  rotate(4deg);}
+40%{transform: translate(2px,-1px);transform:  rotate(5deg);}
+50%{transform: translate(-1px,2px);transform:  rotate(-1deg);}
+60%{transform: translate(-3px,1px);transform:  rotate(0deg);}
+70%{transform: translate(8px,1px);transform:  rotate(-1deg);}
+80%{transform: translate(-1px,-1px);transform:  rotate(0deg);}
+100%{transform: translate(10px,-2px);transform:  rotate(-1deg);}
+    
+    }
+    .otpMainBox h1,span{
+        color: rgb(96, 190, 249);
+        margin-top: 20px;
+    }
+
+    .otpMainBox p{
+        margin-top: 20px;
+        color: rgb(190, 184, 184);
+    }
+    .otpMainBox button{
+        padding: 8px 50px 8px 50px;
+        font-size: 19px;
+        margin-top: 20px;
+        background:#008FF5;
+        color: #fff;
+        border-radius: 2px;
+    }
+    
+    .otp_input_box{
+        padding: 20px;
+        
+        
+    }
+    .otp_input_box input{
+        border: 1px solid black;
+        height: 40px;
+        width: 40px;
+        margin-left: 15px;
+        padding-left: 15px;
+    }
+    @media screen (max-width:"480px") {
+        .mainWrapper{
+            width: 100vw;
+        }
+    }
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+  }
